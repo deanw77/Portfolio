@@ -1,3 +1,13 @@
+:root {
+    --Orange: #FF8400;
+    --Moonstone: #2AB7CA;
+    --Mustard: #FFE156;
+    --RichBlack: #071013;
+    --Ivory: #FBFFF4;
+    --Black: #000000;
+    --White: #FFFFFF;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
