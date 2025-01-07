@@ -1,0 +1,18 @@
+header {
+    background-color: var(--RichBlack);
+    color: var(--Orange);
+    padding: 10px;;
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    color: var(--Ivory);
+}
