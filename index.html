@@ -2,48 +2,92 @@
 
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Portfolio | Dean Waring</title>
-        
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/header.css">
-    </head>
+    <title>Portfolio | Dean Waring</title>
 
-    <body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
+</head>
 
-        <header>
-            <div class="container">
-                <img src="images/Race.jpg" alt="Profile Picture">
-                <h1>Dean Waring</h1>
-                <h2>Web Development</h2>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/Race.jpg" alt="Profile Picture" />
+            <h1>Dean Waring</h1>
+            <h2>Web Development</h2>
+            <nav id="horizontalNav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav id="mobileNav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <main>
-            <div class="container">
-                <section></section>
-            </div>
-        </main>
+    <main>
+        <div class="container">
+            <section id="hero">
+                <h2>Hero Section</h2>
+            </section>
+            <section id="skills">
+                <h2>Skills Section</h2>
+            </section>
+            <section id="portfolio">
+                <article class="wheelchairRacer">
+                    <h3>Wheelchair Racer Website</h3>
+                </article>
+                <article class="weatherApp">
+                    <h3>Weather App</h3>
+                </article>
+                <article class="fitnessSite">
+                    <h3>Fitness App</h3>
+                </article>
+                <article class="itByteSize">
+                    <h3>IT Byte Size Website</h3>
+                </article>
+            </section>
+            <section class="carousel">
+                <article>
+                    <h2>Carousel with additional projects</h2>
+                </article>
+                <aside>
+                    <h2>Aside Section </h2>
+                </aside>
+            </section>
+            <section id="about">
+                <h3>A little bit about me</h3>
+            </section>
+            <section id="contact">
+                <h3>Contact Form</h3>
+            </section>
+            <section class="social">
+                <h4>Social Media Links</h4>
+            </section>
+        </div>
+    </main>
 
-        <footer>
-            <div class="container">
+    <footer>
+        <div class="container">
+            <h6>Footer</h6>
+        </div>
+    </footer>
 
-            </div>
-        </footer>
-
-        <script src="js/script.js"></script>
-    </body>
+    <script src="js/script.js"></script>
+</body>
 
 </html>
