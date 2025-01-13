@@ -1,18 +1,49 @@
 header {
     background-color: var(--RichBlack);
     color: var(--Orange);
-    padding: 10px;;
+    padding: 10px;
+}
+
+.flexHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header img {
-    width: 150px;
-    border-radius: 50%;
+    width: 60px;
+    border-radius: 60%;
 }
 
-header li {
-    display: inline-block;
+header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 0.75px 0.75px 1.5px var(--Ivory);
+    text-decoration: underline;
+}
+
+header h2 {
+    font-size: 1.1rem;
+    text-align: center;
+    text-shadow: 0.75px 0.75px 1.5px var(--Ivory);
+
 }
 
 header a {
     color: var(--Ivory);
+}
+
+#mobileNav ul {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: var(--Ivory);
+}
+
+#mobileNav li {
+    display: none;
+}
+
+#horizontalNav {
+    display: none;
 }

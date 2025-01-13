@@ -15,3 +15,8 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}

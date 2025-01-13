@@ -15,27 +15,31 @@
 <body>
     <header>
         <div class="container">
-            <img src="images/Race.jpg" alt="Profile Picture" />
-            <h1>Dean Waring</h1>
-            <h2>Web Development</h2>
-            <nav id="horizontalNav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <nav id="mobileNav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="flexHead">
+                <img src="images/Race.jpg" alt="Profile Picture" />
+                <div>
+                    <h1>Dean Waring</h1>
+                    <h2>Web Development</h2>
+                </div>
+                <nav id="mobileNav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav id="horizontalNav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>                
+            </div>
         </div>
     </header>
 
@@ -75,10 +79,17 @@
             <section id="contact">
                 <h3>Contact Form</h3>
             </section>
+            <section class="chart">
+                <h3>Confidence in various technologies</h3>  
+                <div>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </section>
             <section class="social">
                 <h4>Social Media Links</h4>
             </section>
         </div>
+        
     </main>
 
     <footer>
@@ -87,6 +98,10 @@
         </div>
     </footer>
 
+    <!-- JvaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="js/barChart.js"></script>
     <script src="js/script.js"></script>
 </body>
 
